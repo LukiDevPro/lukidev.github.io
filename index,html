@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mods und Cheats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .mod-section, .cheat-section {
+            background: #fff;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf unserer Mods und Cheats Seite</h1>
+    </header>
+    <nav>
+        <a href="#mods">Mods</a>
+        <a href="#cheats">Cheats</a>
+        <a href="#about">Über uns</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="container">
+        <section id="mods" class="mod-section">
+            <h2>Mods</h2>
+            <article>
+                <h3>Mod 1</h3>
+                <p>Beschreibung des Mods 1.</p>
+                <a href="#">Download</a>
+            </article>
+            <article>
+                <h3>Mod 2</h3>
+                <p>Beschreibung des Mods 2.</p>
+                <a href="#">Download</a>
+            </article>
+        </section>
+        <section id="cheats" class="cheat-section">
+            <h2>Cheats</h2>
+            <article>
+                <h3>Cheat 1</h3>
+                <p>Beschreibung des Cheats 1.</p>
+            </article>
+            <article>
+                <h3>Cheat 2</h3>
+                <p>Beschreibung des Cheats 2.</p>
+            </article>
+        </section>
+        <section id="about">
+            <h2>Über uns</h2>
+            <p>Hier könnt ihr mehr über uns erfahren.</p>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Hier findet ihr unsere Kontaktdaten.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Mods und Cheats Seite. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
